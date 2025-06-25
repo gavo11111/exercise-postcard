@@ -37,3 +37,46 @@ height: 40%;
     padding: 10px; /* Espacio interno */
     width: 10%;
 text-align: right;
+
+.input-container {
+    margin-bottom: 10px; /* Espacio entre los campos */
+}
+
+.input-container label {
+    display: block; /* Asegura que las etiquetas estén en su propia línea */
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+	 color: gray; /* Cambia el color del texto a gris */
+    opacity: 0.7; /* Opcional: hace que el texto sea un poco más transparente */
+    font-weight: bold; /* Hace que la etiqueta sea más prominente */
+}
+
+.input-container input,
+.input-container textarea {
+    width: 45%; /* Hace que los campos ocupen el 100% del contenedor */
+    padding: 5px; /* Espacio interno en los campos */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 12px; /* Tamaño de fuente */
+	font-family: "Signika", sans-serif;
+	text-align: right;
+}
+
+.button-container {
+    text-align: center; /* Alinea el botón a la derecha */
+}
+
+.send-button {
+    padding: 2px 5px; /* Espacio interno del botón */
+    background-color: gray; /* Color de fondo verde */
+    color: black; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+	 font-size: 10px; /* Tamaño de fuente */
+    width: 35px; /* Ancho fijo */
+    height: 10px; /* Alto fijo */
+}
+
+.send-button:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}
