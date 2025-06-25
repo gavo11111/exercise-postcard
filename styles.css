@@ -1,9 +1,39 @@
-
 body {
-    background: black;
+	background: black;
 }
 
 .signika {
+	 font-size: 24px; 
 	font-family: "Signika", sans-serif;
 	font-weight: 700;
+	width: 33.33%; /* Una tercera parte del contenedor */
+	height: 15%;
+   text-align: left; /* Alinea el texto a la izquierda */
+
 }
+.postal-container {
+	width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+	.content-container {
+	font-size: 16px;
+	font-family: "Signika", sans-serif;
+	font-weight: 700;
+    margin-top: 20px; 
+	 margin-bottom: 10px;
+	    width: 50%; /* La mitad del contenedor */
+height: 40%;
+		text-align: left; /* Alinea el texto a la izquierda */
+
+}
+
+.image-container {
+    border: 2px solid #ccc; /* Borde alrededor de la caja */
+    padding: 10px; /* Espacio interno */
+    width: 10%;
+text-align: right;
