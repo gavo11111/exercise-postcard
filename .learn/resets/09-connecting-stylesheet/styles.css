@@ -1,0 +1,80 @@
+body {
+	background: black;
+}
+.signika {
+	font-size: 24px;
+	font-family: "Signika", sans-serif;
+	font-weight: 700;
+	width: 33.33%; /* Una tercera parte del contenedor */
+	height: 15%;
+	text-align: left; /* Alinea el texto a la izquierda */
+}
+.postal-container {
+	width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.content-container {
+	font-size: 16px;
+	font-family: "Signika", sans-serif;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 50%; /* La mitad del contenedor */
+	height: 40%;
+	text-align: left; /* Alinea el texto a la izquierda */
+}
+.image-container {
+	display: flex; /* Utiliza flexbox para alinear los elementos */
+	justify-content: space-between; /* Espacio entre los elementos */
+	margin-top: 20px; /* Espacio superior */
+	margin-bottom: 20px; /* Espacio inferior */
+}
+img {
+	border: 2px solid #ccc; /* Borde alrededor de la caja */
+	padding: 10px; /* Espacio interno */
+	width: 10%;
+}
+.input-container {
+	margin-bottom: 10px; /* Espacio entre los campos */
+}
+.input-container label {
+	display: block; /* Asegura que las etiquetas estén en su propia línea */
+	margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+	color: gray; /* Cambia el color del texto a gris */
+	opacity: 0.7; /* Opcional: hace que el texto sea un poco más transparente */
+	font-weight: bold; /* Hace que la etiqueta sea más prominente */
+}
+.input-container input,
+.input-container textarea {
+	width: 45%; /* Hace que los campos ocupen el 100% del contenedor */
+	padding: 5px; /* Espacio interno en los campos */
+	border-bottom: 1px solid #ccc; /* Borde ligero */
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 12px; /* Tamaño de fuente */
+	font-family: "Signika", sans-serif;
+	text-align: right;
+}
+.button-container {
+	text-align: center; /* Alinea el botón a la derecha */
+}
+.send-button {
+	padding: 2px 5px; /* Espacio interno del botón */
+	background-color: rgba(128, 128, 128, 0.722); /* Color de fondo verde */
+	color: rgba(0, 0, 0, 0.704); /* Color del texto */
+	border: none; /* Sin borde */
+	border-radius: 5px; /* Bordes redondeados */
+	cursor: pointer; /* Cambia el cursor al pasar el ratón */
+	font-size: 15px; /* Tamaño de fuente */
+	width: 145px; /* Ancho fijo */
+	height: 30px; /* Alto fijo */
+}
+.send-button:hover {
+	background-color: #1b9fe6; /* Color más oscuro al pasar el ratón */
+}
